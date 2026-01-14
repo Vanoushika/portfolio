@@ -29,7 +29,7 @@ export const PORTFOLIO_INFO: Portfolio = {
         },
         {
           label: "GitHub",
-          url: "https://github.com/YOUR_GITHUB_USERNAME",
+          url: "https://github.com/vanoushika",
           icon: "SiGithub",
         },
       ],
