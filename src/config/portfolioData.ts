@@ -12,7 +12,7 @@ export const PORTFOLIO_INFO: Portfolio = {
     name: "Anoushika Vennamaneni",
     title: "Full-Stack Engineer",
     headline: "React · Python · Java · FastAPI · Cloud · Microservices",
-    avatar: "./profile.jpg",
+    avatar: "/profile.jpg",
     summary:
       "Full-Stack Engineer with 2+ years of experience building scalable backend services and responsive web applications.",
 
