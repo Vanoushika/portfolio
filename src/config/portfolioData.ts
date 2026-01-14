@@ -75,8 +75,8 @@ export const PORTFOLIO_INFO: Portfolio = {
         { name: "MongoDB", level: 75, category: "database" },
         { name: "Cassandra", level: 70, category: "database" },
         { name: "DynamoDB", level: 70, category: "database" },
-        { name: "AWS", level: 75, category: "cloud" },
-        { name: "Azure", level: 70, category: "cloud" },
+        { name: "AWS", level: 75, category: "devops" },
+        { name: "Azure", level: 70, category: "devops" },
       ],
     },
     {
