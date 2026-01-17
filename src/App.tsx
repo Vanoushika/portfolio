@@ -1,20 +1,12 @@
-import React from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
-
-import PortfolioPage from "./pages/PortfolioPage";
-import ResumePage from "./pages/ResumePage";
-
-const App: React.FC = () => {
+export default function App() {
   return (
-    <Router>
-      <div className="min-h-screen scroll-smooth">
-        <Routes>
-          <Route path="/" element={<PortfolioPage />} />
-          <Route path="/resume" element={<ResumePage />} />
-        </Routes>
-      </div>
-    </Router>
+    <div className="min-h-screen bg-gray-100 text-gray-900 p-8">
+      <h1 className="text-4xl font-bold mb-4">
+        Anoushika Vennamaneni
+      </h1>
+      <p className="text-lg">
+        Full-Stack Engineer
+      </p>
+    </div>
   );
-};
-
-export default App;
+}
