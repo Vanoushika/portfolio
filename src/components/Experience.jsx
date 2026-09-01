@@ -3,43 +3,43 @@ import React from 'react'
 const Experience = () => {
   const experiences = [
     {
+      title: 'AI Full Stack Engineer',
+      company: 'IQVIA',
+      location: 'Charlotte, NC (Remote)',
+      period: 'Feb 2026 - Present',
+      achievements: [
+        'Engineer production-grade Generative AI applications using Python, FastAPI, React.js, and LLM APIs for healthcare and life-sciences workflows, cutting manual information-retrieval time by ~35%',
+        'Design end-to-end RAG pipelines supporting 10,000+ enterprise documents, covering ingestion, chunking, embeddings, retrieval, reranking, and grounded response generation',
+        'Develop agentic AI workflows using LangGraph and LangChain, orchestrating LLM reasoning, tool calling, and human-in-the-loop approval for multi-step business processes',
+        'Build asynchronous FastAPI microservices supporting 5,000+ API requests per day, improving acceptable LLM response rates from ~78% to 91%'
+      ],
+      tech: 'Python, FastAPI, React.js, LangChain, LangGraph, RAG, Docker, Kubernetes, Azure, PostgreSQL, CI/CD'
+    },
+    {
       title: 'Graduate Assistant',
       company: 'Youngstown State University',
-      location: 'Ohio, USA',
-      period: 'Jan 2024 - May 2025',
+      location: 'Youngstown, OH',
+      period: 'Aug 2024 - Aug 2025',
       achievements: [
-        'Built React and FastAPI tools for organizational workflows, improving clarity and usability for 60+ users',
-        'Created SQL and NoSQL indexes for analytics-style queries, reducing API response latency by 60%',
-        'Integrated LLM features and vector search into backend services, improving semantic retrieval relevance by ~25%',
-        'Improved cloud deployments with Docker, Kubernetes, and Git, increasing release stability by 40%'
+        'Developed 3 AI-enabled academic prototypes, including a document Q&A app using Python, FastAPI, React.js, and LLM APIs',
+        'Implemented prototype RAG workflows using FAISS/Chroma for context-aware responses from academic documents',
+        'Experimented with 30+ prompt variations using LangChain to evaluate context handling and response relevance',
+        'Built 10+ FastAPI REST endpoints and reusable React components for document upload, processing, and retrieval'
       ],
-      tech: 'Python, React, FastAPI, SQL, NoSQL, Docker, Kubernetes, Git, AWS'
+      tech: 'Python, FastAPI, React.js, LangChain, RAG, FAISS, Chroma, PostgreSQL, Docker, Azure, Git'
     },
     {
-      title: 'Software Engineer',
-      company: 'Capgemini',
-      location: 'Hyderabad, India',
-      period: 'Dec 2022 – Dec 2023',
-      achievements: [
-        'Built full-stack product features using Java, Spring Boot, and React, improving workflow automation by 30%',
-        'Developed REST APIs with Spring Boot and Redis caching, increasing system throughput and data reliability by 40%',
-        'Built async data pipelines with Kafka and MongoDB, reducing processing delays by 22% and improving throughput',
-        'Developed Java backend services with Git and CI/CD, reducing deployment defects and rollbacks by 25%'
-      ],
-      tech: 'Java, React, Spring Boot, REST APIs, Kafka, Redis, Kubernetes, Docker, CI/CD, AWS, MongoDB'
-    },
-    {
-      title: 'Software Engineer Intern',
-      company: 'Amdocs',
+      title: 'Full Stack Developer',
+      company: 'Wunderman Thompson Commerce',
       location: 'Noida, India',
-      period: 'Mar 2022 – June 2022',
+      period: 'May 2022 - Nov 2023',
       achievements: [
-        'Built Python backend services with logging and metrics, improving error detection and reliability by 20%',
-        'Built REST APIs with FastAPI and Flask, improving reliability and service stability by 18% through testing',
-        'Enhanced SQL workflows with PostgreSQL, reducing data-related defects impacting users by 15%',
-        'Containerized services using Docker and supported CI builds with Jenkins, accelerating delivery speed by 40%'
+        'Developed and maintained Django full-stack commerce applications for 4 client brands, serving 50,000+ monthly active users',
+        'Designed and integrated 20+ RESTful APIs for product catalogs, checkout, accounts, and order processing',
+        'Built 25+ reusable React.js components, improving frontend consistency and reducing duplicate development effort',
+        'Optimized Django ORM queries and PostgreSQL data models, improving response times by ~25%'
       ],
-      tech: 'Python, React, FastAPI, Flask, REST APIs, PostgreSQL, Docker, Jenkins, Kubernetes, Azure, Git'
+      tech: 'Python, Django, React.js, PostgreSQL, JWT, OAuth 2.0, Docker, Kubernetes, Azure, Jenkins, CI/CD'
     }
   ]
 
