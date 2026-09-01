@@ -18,40 +18,27 @@ const Projects = () => {
       featured: true
     },
     {
-      title: 'TaskFlow – Workflow Management System',
-      description: 'Full-stack workflow management platform with real-time processing capabilities. Implemented CI/CD pipelines maintaining 99% uptime.',
-      tech: ['React', 'Nest.js', 'Redis', 'Kafka', 'Docker', 'Kubernetes', 'PostgreSQL'],
+      title: 'AI Customer Support & Ticket Resolution Platform',
+      description: 'Agentic AI customer-support platform that analyzes tickets, retrieves knowledge, generates responses, and assists with request routing.',
+      tech: ['Python', 'FastAPI', 'React.js', 'LangGraph', 'LangChain', 'RAG', 'PostgreSQL', 'Docker', 'Azure'],
       features: [
-        'Real-time workflow processing improving task responsiveness by 25%',
-        'Redis and Kafka integration for event-driven architecture',
-        'CI/CD automation with Docker and Kubernetes',
-        'Maintains 99% uptime with automated deployments'
+        'Multi-step AI agent workflows combining LLM reasoning, RAG, and semantic retrieval',
+        'Tool execution and human-in-the-loop approval for ticket routing',
+        'React dashboard for ticket management, AI recommendations, and agent review',
+        'Containerized deployment on Microsoft Azure with PostgreSQL persistence'
       ],
       github: '#',
       live: null
     },
     {
-      title: 'FinTrack – Growth & Insights Platform',
-      description: 'Interactive financial analytics platform with GraphQL APIs and real-time dashboards. Built scalable microservices architecture.',
-      tech: ['React', 'GraphQL', 'Node.js', 'Redis', 'PostgreSQL', 'Microservices'],
+      title: 'AI Job Application Analytics Dashboard',
+      description: 'Full-stack platform to track applications, interview stages, and recruiting activity, with LLM-powered resume-to-job matching.',
+      tech: ['Python', 'FastAPI', 'React.js', 'PostgreSQL', 'LLM APIs', 'Prompt Engineering'],
       features: [
-        'Interactive dashboards improving decision workflows by 30%',
-        'GraphQL APIs with Redis caching for performance',
-        'Event-driven data pipelines with Node.js microservices',
-        'Secure and scalable architecture'
-      ],
-      github: '#',
-      live: null
-    },
-    {
-      title: 'AI-Powered C++ Code Reviewer',
-      description: 'Static analysis tool with LLM-based code scoring and quality insights. Reduces manual review time by 40% with 92% accuracy.',
-      tech: ['Python', 'C++', 'React', 'LLM APIs', 'Static Analysis'],
-      features: [
-        'Python and C++ static analysis services',
-        'LLM-based code quality scoring with 92% accuracy',
-        'React interface for presenting review insights',
-        'Reduces manual review time by 40%'
+        'LLM-powered resume-to-job matching and job-description analysis',
+        'Skill-gap identification and personalized match insights',
+        'Analytics APIs and React visualizations for application status and interview progress',
+        'Containerized deployment on Microsoft Azure'
       ],
       github: '#',
       live: null
