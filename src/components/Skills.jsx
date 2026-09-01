@@ -4,27 +4,27 @@ const Skills = () => {
   const skillCategories = [
     {
       title: 'Languages',
-      skills: ['Python', 'Java', 'JavaScript', 'TypeScript', 'C++', 'Go', 'SQL']
+      skills: ['Python', 'JavaScript', 'SQL', 'Java', 'C++']
     },
     {
-      title: 'Frontend',
-      skills: ['React', 'Node.js', 'HTML5', 'CSS3', 'Vite', 'Responsive Design']
+      title: 'AI & Generative AI',
+      skills: ['LLMs', 'RAG', 'Agentic AI', 'LangChain', 'LangGraph', 'Prompt Engineering', 'Vector Search', 'LLM Evaluation']
     },
     {
-      title: 'Backend & APIs',
-      skills: ['FastAPI', 'Flask', 'Django', 'Spring Boot', 'REST APIs', 'GraphQL', 'Microservices']
+      title: 'Backend & Frontend',
+      skills: ['FastAPI', 'Django', 'Django REST Framework', 'React.js', 'HTML5', 'CSS3']
     },
     {
-      title: 'Databases',
-      skills: ['PostgreSQL', 'MongoDB', 'Redis', 'DynamoDB', 'Cassandra', 'Vector DBs']
+      title: 'Databases & Vector Stores',
+      skills: ['PostgreSQL', 'FAISS', 'Chroma']
     },
     {
       title: 'Cloud & DevOps',
-      skills: ['AWS', 'Azure', 'Docker', 'Kubernetes', 'CI/CD', 'Git', 'Jenkins']
+      skills: ['Microsoft Azure', 'Azure OpenAI', 'Docker', 'Kubernetes', 'Jenkins', 'GitHub Actions', 'CI/CD']
     },
     {
-      title: 'Tools & Systems',
-      skills: ['Kafka', 'WebSockets', 'Event-driven', 'LLMs', 'Agile', 'System Design']
+      title: 'Security & Testing',
+      skills: ['JWT', 'OAuth 2.0', 'RBAC', 'PyTest', 'Postman', 'Git']
     }
   ]
 
