@@ -7,10 +7,11 @@ const Hero = () => {
         <h1 className="hero-title">
           Hi, I'm <span className="gradient-text">Anoushika Vennamaneni</span>
         </h1>
-        <h2 className="hero-subtitle">Full-Stack Engineer & AI Enthusiast</h2>
+        <h2 className="hero-subtitle">AI Full-Stack Engineer</h2>
         <p className="hero-description">
-          Building scalable backend services and responsive frontend applications with 2+ years of experience. 
-          Passionate about clean architecture, API design, and solving real problems with elegant technical solutions.
+          Building LLM-powered applications, RAG pipelines, and agentic AI workflows with 3+ years of experience 
+          spanning Python full-stack engineering and Generative AI. Passionate about clean architecture, API design, 
+          and shipping production-ready AI solutions.
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="btn btn-primary">View My Work</a>
