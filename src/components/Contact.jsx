@@ -6,8 +6,8 @@ const Contact = () => {
       <div className="container">
         <h2 className="section-title">Let's Connect!</h2>
         <p className="contact-intro">
-          I'm actively seeking New Grad Software Engineering roles starting December 2025. 
-          Open to relocation and remote opportunities!
+          I'd love to connect on AI Full-Stack Engineering, Generative AI, and RAG/agentic AI projects. 
+          Feel free to reach out!
         </p>
         
         <div className="contact-grid">
@@ -47,11 +47,9 @@ const Contact = () => {
         <div className="availability">
           <h3>🎯 Open To</h3>
           <div className="availability-tags">
-            <span className="tag">Full-Time Roles</span>
+            <span className="tag">Networking</span>
+            <span className="tag">Collaboration</span>
             <span className="tag">Remote Work</span>
-            <span className="tag">Relocation</span>
-            <span className="tag">Contract Work</span>
-            <span className="tag">Available: Dec 2025</span>
           </div>
         </div>
       </div>
