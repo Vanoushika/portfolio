@@ -147,6 +147,16 @@ footer{padding:2rem 0 9rem;border-top:1px solid var(--line);color:var(--muted);f
 
 /* chat */
 .chat-fab{position:fixed;right:1rem;bottom:4.5rem;z-index:60;display:flex;align-items:center;gap:.6rem;padding:.8rem 1.15rem;border:0;border-radius:999px;background:var(--accent);color:#07101f;font:700 .88rem var(--font);cursor:pointer;box-shadow:0 10px 30px rgba(122,162,255,.3)}
+/* Chat button: bot + "Hey" animation */
+.chat-fab .fab-bot{width:34px;height:34px;border-radius:50%;background:#07101f;display:grid;place-items:center;animation:fabBob 2.4s ease-in-out infinite}
+.chat-fab .fab-bot svg{width:24px;height:24px}
+.chat-fab .fab-eye{transform-box:fill-box;transform-origin:center;animation:fabBlink 4s infinite}
+.chat-fab .fab-ant{animation:fabGlow 1.6s ease-in-out infinite}
+.chat-fab::after{content:"";position:absolute;inset:0;border-radius:999px;border:2px solid var(--accent);pointer-events:none;animation:fabRing 2.4s ease-out infinite}
+@keyframes fabBob{0%,100%{transform:translateY(0) rotate(0)}50%{transform:translateY(-3px) rotate(-6deg)}}
+@keyframes fabBlink{0%,92%,100%{transform:scaleY(1)}96%{transform:scaleY(.1)}}
+@keyframes fabGlow{0%,100%{opacity:1}50%{opacity:.3}}
+@keyframes fabRing{0%{transform:scale(1);opacity:.7}100%{transform:scale(1.35);opacity:0}}
 .chat{position:fixed;right:1rem;bottom:8rem;z-index:61;width:min(380px,calc(100vw - 2rem));height:min(520px,calc(100vh - 10rem));display:flex;flex-direction:column;background:var(--panel);border:1px solid var(--line-2);border-radius:14px;box-shadow:0 24px 60px rgba(0,0,0,.55);overflow:hidden}
 .chat[hidden]{display:none}
 .chat-head{display:flex;align-items:center;justify-content:space-between;gap:.75rem;padding:.8rem 1rem;border-bottom:1px solid var(--line)}
@@ -413,8 +423,17 @@ footer{padding:2rem 0 9rem;border-top:1px solid var(--line);color:var(--muted);f
 
 <!-- CHAT WIDGET -->
 <button class="chat-fab" id="chatOpen" type="button" aria-expanded="false" aria-controls="chat" aria-label="Open chat assistant">
-  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="8" width="16" height="12" rx="3"/><path d="M12 4v4"/><circle cx="12" cy="3" r="1"/><circle cx="9" cy="14" r="1" fill="currentColor"/><circle cx="15" cy="14" r="1" fill="currentColor"/><path d="M2 14h2M20 14h2"/></svg>
-  <span>Hi, ask me anything</span>
+  <span class="fab-bot" aria-hidden="true">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#7aa2ff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 5V3.5"/>
+      <circle class="fab-ant" cx="12" cy="2.6" r="1.2" fill="#7aa2ff"/>
+      <rect x="4.5" y="6" width="15" height="12.5" rx="5"/>
+      <circle class="fab-eye" cx="9.5" cy="11.5" r="1.3" fill="#7aa2ff" stroke="none"/>
+      <circle class="fab-eye" cx="14.5" cy="11.5" r="1.3" fill="#7aa2ff" stroke="none"/>
+      <path d="M9.5 15.2c1.4 1 3.6 1 5 0"/>
+    </svg>
+  </span>
+  <span>Hey</span>
 </button>
 <section class="chat" id="chat" role="dialog" aria-label="Chat assistant" hidden>
   <div class="chat-head">
